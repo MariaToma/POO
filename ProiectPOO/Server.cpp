@@ -22,10 +22,19 @@ void Server::AddAccount(Account *a)
 
 }
 
-void Server::ViewAccountList()
+//void server::viewaccountlist()
+//{
+//	for (int i = 0; i < accountlist.end; i++)
+//	{
+//		
+//	}
+//}
+Server& Server::operator[](int i)
 {
-	for (int i = 0; i < AccountList.end; i++)
+	return AccountList[i];
+	//for (int i = 0; i < AccountList.end; i++)
 	{
-		Acc
+		//for (int j = i; j < AccountList.end; j++)
+	
 	}
 }

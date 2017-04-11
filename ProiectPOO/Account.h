@@ -13,7 +13,7 @@ private:
 public:
 	Account();
 	~Account();
-	
+
 	void SetMailAdress();
 	void SetPassword();
 	char *getPassword() { return this->Password; };

@@ -17,10 +17,7 @@ void Account::SetMailAdress()
 	cin >> MailAdress;
 
 }
-Account& Account::operator[](int i)
-{
-	// return 
-}
+
 void Account::SetPassword()
 {
 	try 
